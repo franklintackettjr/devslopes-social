@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "25842c4bf43e91c92333f45c49aa4c5e"
+build_time: [549326659, 386168000]
+inputs:
+  "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/devslopes-social/SignInVC.swift": [549321900, 0]
+  "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/devslopes-social/AppDelegate.swift": [549321900, 0]
