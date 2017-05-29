@@ -1,11 +1,12 @@
 version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
-options: "fa498be085c832231da41eb7377322a5"
-build_time: [549355037, 225013000]
+options: "38683d9ea8658d787b2725b5648ae1ca"
+build_time: [549362398, 183915000]
 inputs:
   "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/devslopes-social/FancyField.swift": [549330060, 0]
-  "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/devslopes-social/SignInVC.swift": [549355036, 0]
+  "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/devslopes-social/SignInVC.swift": [549359020, 0]
   "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/devslopes-social/RoundBtn.swift": [549341730, 0]
   "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/devslopes-social/AppDelegate.swift": [549355036, 0]
+  "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/devslopes-social/FeedVC.swift": [549362397, 0]
   "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/devslopes-social/FancyView.swift": [549328614, 0]
-  "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/devslopes-social/Constants.swift": [549327739, 0]
+  "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/devslopes-social/Constants.swift": [549358295, 0]
   "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/devslopes-social/FancyBtn.swift": [549329991, 0]

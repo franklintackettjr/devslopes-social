@@ -182,6 +182,16 @@ SWIFT_CLASS("_TtC16devslopes_social9FancyView")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class NSBundle;
+
+SWIFT_CLASS("_TtC16devslopes_social6FeedVC")
+@interface FeedVC : UIViewController
+- (void)viewDidLoad;
+- (IBAction)signOutTapped:(id _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 SWIFT_CLASS("_TtC16devslopes_social8RoundBtn")
 @interface RoundBtn : UIButton
@@ -192,17 +202,17 @@ SWIFT_CLASS("_TtC16devslopes_social8RoundBtn")
 @end
 
 @class FIRAuthCredential;
-@class NSBundle;
 
 SWIFT_CLASS("_TtC16devslopes_social8SignInVC")
 @interface SignInVC : UIViewController
 @property (nonatomic, weak) IBOutlet FancyField * _Null_unspecified emailField;
 @property (nonatomic, weak) IBOutlet FancyField * _Null_unspecified pwdField;
 - (void)viewDidLoad;
-- (void)didReceiveMemoryWarning;
+- (void)viewDidAppear:(BOOL)animated;
 - (IBAction)facebookBtnTapped:(id _Nonnull)sender;
 - (void)firebaseAuth:(FIRAuthCredential * _Nonnull)credential;
 - (IBAction)signInTapped:(id _Nonnull)sender;
+- (void)completeSignInId:(NSString * _Nonnull)id;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
