@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7D07CD471EDC03E900675C53 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D07CD461EDC03E900675C53 /* FeedVC.swift */; };
+		7D07CD491EDC244500675C53 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D07CD481EDC244500675C53 /* CircleView.swift */; };
 		7DF439961EDB72BE00513CCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF439951EDB72BE00513CCF /* AppDelegate.swift */; };
 		7DF439981EDB72BE00513CCF /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF439971EDB72BE00513CCF /* SignInVC.swift */; };
 		7DF4399B1EDB72BE00513CCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DF439991EDB72BE00513CCF /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		004297CDDC76621F20B74C91 /* Pods-devslopes-social.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-devslopes-social.debug.xcconfig"; path = "Pods/Target Support Files/Pods-devslopes-social/Pods-devslopes-social.debug.xcconfig"; sourceTree = "<group>"; };
 		7D07CD461EDC03E900675C53 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		7D07CD481EDC244500675C53 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		7DF439921EDB72BE00513CCF /* devslopes-social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "devslopes-social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DF439951EDB72BE00513CCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DF439971EDB72BE00513CCF /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				7DF439B11EDB91E500513CCF /* RoundBtn.swift */,
 				7DF439B31EDB93C900513CCF /* FancyField.swift */,
 				7DF439B51EDB968D00513CCF /* FancyBtn.swift */,
+				7D07CD481EDC244500675C53 /* CircleView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D07CD491EDC244500675C53 /* CircleView.swift in Sources */,
 				7DF439B41EDB93C900513CCF /* FancyField.swift in Sources */,
 				7DF439981EDB72BE00513CCF /* SignInVC.swift in Sources */,
 				7DF439B21EDB91E500513CCF /* RoundBtn.swift in Sources */,

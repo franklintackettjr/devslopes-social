@@ -155,7 +155,19 @@ SWIFT_CLASS("_TtC16devslopes_social11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIImage;
 @class NSCoder;
+
+SWIFT_CLASS("_TtC16devslopes_social10CircleView")
+@interface CircleView : UIImageView
+- (void)awakeFromNib;
+- (void)layoutSubviews;
+- (nonnull instancetype)initWithImage:(UIImage * _Nullable)image OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithImage:(UIImage * _Nullable)image highlightedImage:(UIImage * _Nullable)highlightedImage OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 SWIFT_CLASS("_TtC16devslopes_social8FancyBtn")
 @interface FancyBtn : UIButton
