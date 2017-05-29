@@ -194,13 +194,35 @@ SWIFT_CLASS("_TtC16devslopes_social9FancyView")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UITableView;
+@class UITableViewCell;
 @class NSBundle;
 
 SWIFT_CLASS("_TtC16devslopes_social6FeedVC")
-@interface FeedVC : UIViewController
+@interface FeedVC : UIViewController <UIScrollViewDelegate, UITableViewDataSource, UITableViewDelegate>
+@property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified tableView;
 - (void)viewDidLoad;
+- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 - (IBAction)signOutTapped:(id _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UILabel;
+@class UITextView;
+
+SWIFT_CLASS("_TtC16devslopes_social8PostCell")
+@interface PostCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified profileImg;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified userNameLbl;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified postImg;
+@property (nonatomic, weak) IBOutlet UITextView * _Null_unspecified caption;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified likesLbl;
+- (void)awakeFromNib;
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
