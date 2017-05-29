@@ -7,11 +7,19 @@ provides-member:
 - ["C16devslopes_social8PostCell", ""]
 provides-dynamic-lookup:
 - "awakeFromNib"
+- "caption"
+- "likesLbl"
+- "postImg"
+- "profileImg"
 - "setSelected"
+- "userNameLbl"
 depends-top-level:
 - "Bool"
 - "PostCell"
+- "UIImageView"
+- "UILabel"
 - "UITableViewCell"
+- "UITextView"
 depends-member:
 - !private ["Ps9AnyObject", "awakeFromNib"]
 - !private ["Ps9AnyObject", "init"]
@@ -46,18 +54,34 @@ depends-member:
 - !private ["PSo8NSCoding", "setSelected"]
 - ["PSo8NSCoding", ""]
 - ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "UIImageView"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "UITextView"]
 - ["CSo8NSObject", "awakeFromNib"]
+- ["CSo8NSObject", "caption"]
 - ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "likesLbl"]
+- ["CSo8NSObject", "postImg"]
+- ["CSo8NSObject", "profileImg"]
 - ["CSo8NSObject", "setSelected"]
+- ["CSo8NSObject", "userNameLbl"]
 - !private ["PSo16NSObjectProtocol", "awakeFromNib"]
 - !private ["PSo16NSObjectProtocol", "init"]
 - !private ["PSo16NSObjectProtocol", "setSelected"]
 - ["PSo16NSObjectProtocol", ""]
 - ["C16devslopes_social8PostCell", "Bool"]
+- ["C16devslopes_social8PostCell", "UIImageView"]
+- ["C16devslopes_social8PostCell", "UILabel"]
+- ["C16devslopes_social8PostCell", "UITextView"]
 - ["C16devslopes_social8PostCell", "awakeFromNib"]
+- ["C16devslopes_social8PostCell", "caption"]
 - ["C16devslopes_social8PostCell", "deinit"]
 - ["C16devslopes_social8PostCell", "init"]
+- ["C16devslopes_social8PostCell", "likesLbl"]
+- ["C16devslopes_social8PostCell", "postImg"]
+- ["C16devslopes_social8PostCell", "profileImg"]
 - ["C16devslopes_social8PostCell", "setSelected"]
+- ["C16devslopes_social8PostCell", "userNameLbl"]
 - !private ["PSo29UIAccessibilityIdentification", "awakeFromNib"]
 - !private ["PSo29UIAccessibilityIdentification", "init"]
 - !private ["PSo29UIAccessibilityIdentification", "setSelected"]
@@ -91,26 +115,50 @@ depends-member:
 - !private ["PSo27UIGestureRecognizerDelegate", "setSelected"]
 - ["PSo27UIGestureRecognizerDelegate", ""]
 - ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "UIImageView"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "UITextView"]
 - ["CSo11UIResponder", "awakeFromNib"]
+- ["CSo11UIResponder", "caption"]
 - ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "likesLbl"]
+- ["CSo11UIResponder", "postImg"]
+- ["CSo11UIResponder", "profileImg"]
 - ["CSo11UIResponder", "setSelected"]
+- ["CSo11UIResponder", "userNameLbl"]
 - !private ["PSo30UIResponderStandardEditActions", "awakeFromNib"]
 - !private ["PSo30UIResponderStandardEditActions", "init"]
 - !private ["PSo30UIResponderStandardEditActions", "setSelected"]
 - ["PSo30UIResponderStandardEditActions", ""]
 - ["CSo15UITableViewCell", "Bool"]
+- ["CSo15UITableViewCell", "UIImageView"]
+- ["CSo15UITableViewCell", "UILabel"]
+- ["CSo15UITableViewCell", "UITextView"]
 - ["CSo15UITableViewCell", "awakeFromNib"]
+- ["CSo15UITableViewCell", "caption"]
 - ["CSo15UITableViewCell", "init"]
+- ["CSo15UITableViewCell", "likesLbl"]
+- ["CSo15UITableViewCell", "postImg"]
+- ["CSo15UITableViewCell", "profileImg"]
 - ["CSo15UITableViewCell", "setSelected"]
+- ["CSo15UITableViewCell", "userNameLbl"]
 - ["CSo15UITableViewCell", ""]
 - !private ["PSo18UITraitEnvironment", "awakeFromNib"]
 - !private ["PSo18UITraitEnvironment", "init"]
 - !private ["PSo18UITraitEnvironment", "setSelected"]
 - ["PSo18UITraitEnvironment", ""]
 - ["CSo6UIView", "Bool"]
+- ["CSo6UIView", "UIImageView"]
+- ["CSo6UIView", "UILabel"]
+- ["CSo6UIView", "UITextView"]
 - ["CSo6UIView", "awakeFromNib"]
+- ["CSo6UIView", "caption"]
 - ["CSo6UIView", "init"]
+- ["CSo6UIView", "likesLbl"]
+- ["CSo6UIView", "postImg"]
+- ["CSo6UIView", "profileImg"]
 - ["CSo6UIView", "setSelected"]
+- ["CSo6UIView", "userNameLbl"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "awakeFromNib"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "setSelected"]
@@ -287,4 +335,4 @@ depends-external:
 - "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Modules/module.modulemap"
 - "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/module.modulemap"
 - "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap"
-interface-hash: "b137e2d9f392ab33ff7539c243ef2559"
+interface-hash: "00234c578ea42a20555572159ff34ffa"
