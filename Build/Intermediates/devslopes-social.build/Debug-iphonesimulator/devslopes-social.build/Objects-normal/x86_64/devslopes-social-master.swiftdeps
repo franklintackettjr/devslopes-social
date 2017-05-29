@@ -1,6 +1,11 @@
 version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
 options: "4172fb40250e341bb453fa86dcf51301"
-build_time: [549321907, 532487000]
+build_time: [549330060, 437559000]
 inputs:
+  "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/devslopes-social/FancyField.swift": [549330060, 0]
   "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/devslopes-social/SignInVC.swift": [549321900, 0]
+  "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/devslopes-social/RoundBtn.swift": [549329098, 0]
   "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/devslopes-social/AppDelegate.swift": [549321900, 0]
+  "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/devslopes-social/FancyView.swift": [549328614, 0]
+  "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/devslopes-social/Constants.swift": [549327739, 0]
+  "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/devslopes-social/FancyBtn.swift": [549329991, 0]
