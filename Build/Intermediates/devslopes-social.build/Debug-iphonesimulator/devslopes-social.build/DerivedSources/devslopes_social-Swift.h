@@ -196,10 +196,13 @@ SWIFT_CLASS("_TtC16devslopes_social8RoundBtn")
 
 SWIFT_CLASS("_TtC16devslopes_social8SignInVC")
 @interface SignInVC : UIViewController
+@property (nonatomic, weak) IBOutlet FancyField * _Null_unspecified emailField;
+@property (nonatomic, weak) IBOutlet FancyField * _Null_unspecified pwdField;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (IBAction)facebookBtnTapped:(id _Nonnull)sender;
 - (void)firebaseAuth:(FIRAuthCredential * _Nonnull)credential;
+- (IBAction)signInTapped:(id _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
