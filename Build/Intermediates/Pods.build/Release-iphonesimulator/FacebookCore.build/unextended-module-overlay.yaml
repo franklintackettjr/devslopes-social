@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Release-iphonesimulator/FacebookCore/FacebookCore.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Intermediates/Pods.build/Release-iphonesimulator/FacebookCore.build/unextended-module.modulemap',
+    }]
+  }]
+}

@@ -1,0 +1,12 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "240e841253128ed917d5cbc8b73a5d6f"
+build_time: [549341134, 882614000]
+inputs:
+  "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FacebookLogin/Sources/Login/LoginBehavior.swift": [549340847, 0]
+  "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FacebookLogin/Sources/Login/LoginButton.swift": [549340847, 0]
+  "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FacebookLogin/Sources/Login/LoginButton.Tooltip.swift": [549340847, 0]
+  "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FacebookLogin/Sources/Login/LoginButtonDelegate.swift": [549340847, 0]
+  "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FacebookLogin/Sources/Login/LoginButtonDelegateBridge.swift": [549340847, 0]
+  "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FacebookLogin/Sources/Login/LoginDefaultAudience.swift": [549340847, 0]
+  "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FacebookLogin/Sources/Login/LoginManager.swift": [549340847, 0]
+  "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FacebookLogin/Sources/Login/LoginResult.swift": [549340847, 0]

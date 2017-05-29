@@ -1,0 +1,279 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GraphAPIVersion"
+provides-nominal:
+- "V12FacebookCore15GraphAPIVersion"
+provides-member:
+- ["V12FacebookCore15GraphAPIVersion", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "ExpressibleByFloatLiteral"
+- "ExpressibleByStringLiteral"
+- "FBSDK_TARGET_PLATFORM_VERSION"
+- "FloatLiteralType"
+- "GraphAPIVersion"
+- "String"
+- "StringLiteralType"
+- "UnicodeScalarType"
+depends-member:
+- ["Ps9AnyObject", "characters"]
+- ["Ps9AnyObject", "hasPrefix"]
+- ["Ps9AnyObject", "init"]
+- ["P12FacebookCore26AppEventParameterValueType", "characters"]
+- ["P12FacebookCore26AppEventParameterValueType", "hasPrefix"]
+- ["P12FacebookCore26AppEventParameterValueType", "init"]
+- ["Ps23BidirectionalCollection", "dropFirst"]
+- ["Sb", "_getBuiltinLogicValue"]
+- ["Ps7CVarArg", "characters"]
+- ["Ps7CVarArg", "hasPrefix"]
+- ["Ps7CVarArg", "init"]
+- ["VSS13CharacterView", "dropFirst"]
+- ["Ps10Collection", "dropFirst"]
+- ["Ps10Comparable", "characters"]
+- ["Ps10Comparable", "hasPrefix"]
+- ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "characters"]
+- ["Ps28CustomDebugStringConvertible", "hasPrefix"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "characters"]
+- ["Ps29CustomPlaygroundQuickLookable", "hasPrefix"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- ["Ps17CustomReflectable", "characters"]
+- ["Ps17CustomReflectable", "hasPrefix"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "characters"]
+- ["Ps23CustomStringConvertible", "hasPrefix"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "characters"]
+- ["Ps9Equatable", "hasPrefix"]
+- ["Ps9Equatable", "init"]
+- ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "FBSDK_TARGET_PLATFORM_VERSION"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "GraphAPIVersion"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "String"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "characters"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "hasPrefix"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "stringValue"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", ""]
+- ["Ps25ExpressibleByFloatLiteral", "FBSDK_TARGET_PLATFORM_VERSION"]
+- ["Ps25ExpressibleByFloatLiteral", "GraphAPIVersion"]
+- ["Ps25ExpressibleByFloatLiteral", "String"]
+- ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "stringValue"]
+- ["Ps25ExpressibleByFloatLiteral", ""]
+- ["Ps26ExpressibleByStringLiteral", "FBSDK_TARGET_PLATFORM_VERSION"]
+- ["Ps26ExpressibleByStringLiteral", "GraphAPIVersion"]
+- ["Ps26ExpressibleByStringLiteral", "String"]
+- ["Ps26ExpressibleByStringLiteral", "characters"]
+- ["Ps26ExpressibleByStringLiteral", "hasPrefix"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "stringValue"]
+- ["Ps26ExpressibleByStringLiteral", ""]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "FBSDK_TARGET_PLATFORM_VERSION"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "GraphAPIVersion"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "String"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "characters"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "hasPrefix"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "stringValue"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", ""]
+- ["V12FacebookCore15GraphAPIVersion", "ExtendedGraphemeClusterLiteralType"]
+- ["V12FacebookCore15GraphAPIVersion", "FBSDK_TARGET_PLATFORM_VERSION"]
+- ["V12FacebookCore15GraphAPIVersion", "FloatLiteralType"]
+- ["V12FacebookCore15GraphAPIVersion", "GraphAPIVersion"]
+- ["V12FacebookCore15GraphAPIVersion", "String"]
+- ["V12FacebookCore15GraphAPIVersion", "StringLiteralType"]
+- ["V12FacebookCore15GraphAPIVersion", "UnicodeScalarLiteralType"]
+- ["V12FacebookCore15GraphAPIVersion", "defaultVersion"]
+- ["V12FacebookCore15GraphAPIVersion", "deinit"]
+- ["V12FacebookCore15GraphAPIVersion", "init"]
+- ["V12FacebookCore15GraphAPIVersion", "stringValue"]
+- ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "characters"]
+- ["Ps8Hashable", "hasPrefix"]
+- ["Ps8Hashable", "init"]
+- ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "characters"]
+- ["Ps25LosslessStringConvertible", "hasPrefix"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "characters"]
+- ["Ps10MirrorPath", "hasPrefix"]
+- ["Ps10MirrorPath", "init"]
+- ["PSo8NSCoding", "characters"]
+- ["PSo8NSCoding", "hasPrefix"]
+- ["PSo8NSCoding", "init"]
+- ["PSo9NSCopying", "characters"]
+- ["PSo9NSCopying", "hasPrefix"]
+- ["PSo9NSCopying", "init"]
+- ["PSo16NSMutableCopying", "characters"]
+- ["PSo16NSMutableCopying", "hasPrefix"]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "characters"]
+- ["CSo8NSObject", "hasPrefix"]
+- ["PSo16NSObjectProtocol", "characters"]
+- ["PSo16NSObjectProtocol", "hasPrefix"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo14NSSecureCoding", "characters"]
+- ["PSo14NSSecureCoding", "hasPrefix"]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "characters"]
+- ["CSo8NSString", "hasPrefix"]
+- ["CSo8NSString", "init"]
+- ["Ps26RangeReplaceableCollection", "dropFirst"]
+- ["Ps8Sequence", "dropFirst"]
+- ["SS", "characters"]
+- ["SS", "hasPrefix"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "characters"]
+- ["Ps16TextOutputStream", "hasPrefix"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "characters"]
+- ["Ps20TextOutputStreamable", "hasPrefix"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["Ps23_BidirectionalIndexable", "dropFirst"]
+- ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "characters"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "hasPrefix"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "characters"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "hasPrefix"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "characters"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "hasPrefix"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "characters"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "hasPrefix"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps33_ExpressibleByStringInterpolation", "characters"]
+- ["Ps33_ExpressibleByStringInterpolation", "hasPrefix"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "characters"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "hasPrefix"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "characters"]
+- ["Ps9_Hashable", "hasPrefix"]
+- ["Ps9_Hashable", "init"]
+- ["Ps10_Indexable", "dropFirst"]
+- ["Ps14_IndexableBase", "dropFirst"]
+- ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- ["Ps21_ObjectiveCBridgeable", "characters"]
+- ["Ps21_ObjectiveCBridgeable", "hasPrefix"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- ["Ps26_RangeReplaceableIndexable", "dropFirst"]
+depends-nominal:
+- "Ps9AnyObject"
+- "P12FacebookCore26AppEventParameterValueType"
+- "Ps23BidirectionalCollection"
+- "Sb"
+- "Ps7CVarArg"
+- "VSS13CharacterView"
+- "Ps10Collection"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps27ExpressibleByBooleanLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps25ExpressibleByFloatLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "V12FacebookCore15GraphAPIVersion"
+- "Ps8Hashable"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "Ps26RangeReplaceableCollection"
+- "Ps8Sequence"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "Ps23_BidirectionalIndexable"
+- "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps10_Indexable"
+- "Ps14_IndexableBase"
+- "Ps21_ObjectiveCBridgeable"
+- "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/Bolts/Bolts/iOS/BFURL.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/Target Support Files/FacebookCore/FacebookCore-umbrella.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/Target Support Files/Bolts/Bolts-umbrella.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/Target Support Files/FBSDKCoreKit/FBSDKCoreKit-umbrella.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/Bolts/Bolts/Common/BFCancellationTokenSource.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/Bolts/Bolts/Common/BFTaskCompletionSource.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKProfile.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKApplicationDelegate.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/Bolts/Bolts/iOS/BFAppLinkResolving.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKCopying.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKMutableCopying.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/Bolts/Bolts/iOS/BFAppLink.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/Bolts/Bolts/Common/BFTask.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/Bolts/Bolts/Common/BFCancellationToken.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAccessToken.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/Bolts/Bolts/iOS/BFAppLinkNavigation.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/Bolts/Bolts/Common/BFCancellationTokenRegistration.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequestConnection.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKButton.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKTestUsersManager.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/Bolts/Bolts/iOS/BFAppLinkReturnToRefererController.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkResolver.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/Bolts/Bolts/iOS/BFWebViewAppLinkResolver.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/Bolts/Bolts/Common/BFExecutor.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKSettings.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/Bolts/Bolts/Common/BFTask+Exceptions.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKMacros.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/Bolts/Bolts/Common/Bolts.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKConstants.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppEvents.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/Bolts/Bolts/iOS/BFAppLinkTarget.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequestDataAttachment.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/Bolts/Bolts/iOS/BFMeasurementEvent.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequest.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKProfilePictureView.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/Bolts/Bolts/iOS/BFAppLinkReturnToRefererView.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKUtility.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkUtility.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Intermediates/Pods.build/Debug-iphonesimulator/FacebookCore.build/unextended-module.modulemap"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Intermediates/Pods.build/Debug-iphonesimulator/Bolts.build/module.modulemap"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Intermediates/Pods.build/Debug-iphonesimulator/FBSDKCoreKit.build/module.modulemap"
+interface-hash: "fc34e0280547c62fe288eaa4cd97c373"

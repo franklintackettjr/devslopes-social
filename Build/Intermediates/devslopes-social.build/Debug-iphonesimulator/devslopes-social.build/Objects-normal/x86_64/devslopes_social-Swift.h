@@ -133,6 +133,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if defined(__has_feature) && __has_feature(modules)
 @import UIKit;
+@import Foundation;
 @import CoreGraphics;
 #endif
 
@@ -150,6 +151,7 @@ SWIFT_CLASS("_TtC16devslopes_social11AppDelegate")
 - (void)applicationWillEnterForeground:(UIApplication * _Nonnull)application;
 - (void)applicationDidBecomeActive:(UIApplication * _Nonnull)application;
 - (void)applicationWillTerminate:(UIApplication * _Nonnull)application;
+- (BOOL)application:(UIApplication * _Nonnull)application openURL:(NSURL * _Nonnull)url sourceApplication:(NSString * _Nullable)sourceApplication annotation:(id _Nonnull)annotation SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -189,12 +191,15 @@ SWIFT_CLASS("_TtC16devslopes_social8RoundBtn")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class FIRAuthCredential;
 @class NSBundle;
 
 SWIFT_CLASS("_TtC16devslopes_social8SignInVC")
 @interface SignInVC : UIViewController
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
+- (IBAction)facebookBtnTapped:(id _Nonnull)sender;
+- (void)firebaseAuth:(FIRAuthCredential * _Nonnull)credential;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

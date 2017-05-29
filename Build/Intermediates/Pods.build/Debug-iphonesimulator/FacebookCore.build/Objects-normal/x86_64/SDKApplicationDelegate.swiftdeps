@@ -1,0 +1,171 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SDKApplicationDelegate"
+provides-nominal:
+- "C12FacebookCore22SDKApplicationDelegate"
+provides-member:
+- ["C12FacebookCore22SDKApplicationDelegate", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Bool"
+- "CastingPrecedence"
+- "FBSDKApplicationDelegate"
+- "SDKApplicationDelegate"
+- "String"
+- "UIApplication"
+- "UIApplicationLaunchOptionsKey"
+- "UIApplicationOpenURLOptionsKey"
+- "URL"
+depends-member:
+- ["Ps9AnyObject", "FBSDKApplicationDelegate"]
+- ["Ps9AnyObject", "SDKApplicationDelegate"]
+- !private ["Ps9AnyObject", "UIApplicationOpenURLOptionsKey"]
+- !private ["Ps9AnyObject", "application"]
+- !private ["Ps9AnyObject", "delegate"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "sharedInstance"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps7CVarArg", "application"]
+- ["Ps7CVarArg", "sharedInstance"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "annotation"]
+- !private ["Ps10Comparable", "sourceApplication"]
+- !private ["Ps28CustomDebugStringConvertible", "application"]
+- ["Ps28CustomDebugStringConvertible", "sharedInstance"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "application"]
+- ["Ps23CustomStringConvertible", "sharedInstance"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Ps9Equatable", "annotation"]
+- !private ["Ps9Equatable", "application"]
+- ["Ps9Equatable", "sharedInstance"]
+- !private ["Ps9Equatable", "sourceApplication"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- !private ["CSo24FBSDKApplicationDelegate", "application"]
+- ["CSo24FBSDKApplicationDelegate", "sharedInstance"]
+- !private ["Ps8Hashable", "annotation"]
+- !private ["Ps8Hashable", "application"]
+- ["Ps8Hashable", "sharedInstance"]
+- !private ["Ps8Hashable", "sourceApplication"]
+- !private ["CSo8NSObject", "application"]
+- ["CSo8NSObject", "sharedInstance"]
+- !private ["PSo16NSObjectProtocol", "application"]
+- ["PSo16NSObjectProtocol", "sharedInstance"]
+- !private ["Ps16RawRepresentable", "annotation"]
+- !private ["Ps16RawRepresentable", "sourceApplication"]
+- ["C12FacebookCore22SDKApplicationDelegate", "Bool"]
+- ["C12FacebookCore22SDKApplicationDelegate", "FBSDKApplicationDelegate"]
+- ["C12FacebookCore22SDKApplicationDelegate", "SDKApplicationDelegate"]
+- ["C12FacebookCore22SDKApplicationDelegate", "String"]
+- ["C12FacebookCore22SDKApplicationDelegate", "UIApplication"]
+- ["C12FacebookCore22SDKApplicationDelegate", "UIApplicationLaunchOptionsKey"]
+- ["C12FacebookCore22SDKApplicationDelegate", "UIApplicationOpenURLOptionsKey"]
+- ["C12FacebookCore22SDKApplicationDelegate", "URL"]
+- ["C12FacebookCore22SDKApplicationDelegate", "application"]
+- ["C12FacebookCore22SDKApplicationDelegate", "deinit"]
+- !private ["C12FacebookCore22SDKApplicationDelegate", "delegate"]
+- ["C12FacebookCore22SDKApplicationDelegate", "init"]
+- ["C12FacebookCore22SDKApplicationDelegate", "shared"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["VSC30UIApplicationOpenURLOptionsKey", "annotation"]
+- !private ["VSC30UIApplicationOpenURLOptionsKey", "sourceApplication"]
+- !private ["Ps9_Hashable", "annotation"]
+- !private ["Ps9_Hashable", "application"]
+- ["Ps9_Hashable", "sharedInstance"]
+- !private ["Ps9_Hashable", "sourceApplication"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "annotation"]
+- !private ["Ps21_ObjectiveCBridgeable", "sourceApplication"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps20_SwiftNewtypeWrapper", "annotation"]
+- !private ["Ps20_SwiftNewtypeWrapper", "sourceApplication"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- "Ps9Equatable"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- "CSo24FBSDKApplicationDelegate"
+- "Ps8Hashable"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Ps16RawRepresentable"
+- "C12FacebookCore22SDKApplicationDelegate"
+- !private "Ps8Sequence"
+- !private "VSC30UIApplicationOpenURLOptionsKey"
+- "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps20_SwiftNewtypeWrapper"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/Bolts/Bolts/iOS/BFURL.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/Target Support Files/FacebookCore/FacebookCore-umbrella.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/Target Support Files/Bolts/Bolts-umbrella.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/Target Support Files/FBSDKCoreKit/FBSDKCoreKit-umbrella.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/Bolts/Bolts/Common/BFCancellationTokenSource.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/Bolts/Bolts/Common/BFTaskCompletionSource.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKProfile.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKApplicationDelegate.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/Bolts/Bolts/iOS/BFAppLinkResolving.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKCopying.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKMutableCopying.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/Bolts/Bolts/iOS/BFAppLink.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/Bolts/Bolts/Common/BFTask.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/Bolts/Bolts/Common/BFCancellationToken.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAccessToken.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/Bolts/Bolts/iOS/BFAppLinkNavigation.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/Bolts/Bolts/Common/BFCancellationTokenRegistration.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequestConnection.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKButton.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKTestUsersManager.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/Bolts/Bolts/iOS/BFAppLinkReturnToRefererController.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkResolver.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/Bolts/Bolts/iOS/BFWebViewAppLinkResolver.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/Bolts/Bolts/Common/BFExecutor.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKSettings.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/Bolts/Bolts/Common/BFTask+Exceptions.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKMacros.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/Bolts/Bolts/Common/Bolts.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKConstants.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppEvents.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/Bolts/Bolts/iOS/BFAppLinkTarget.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequestDataAttachment.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/Bolts/Bolts/iOS/BFMeasurementEvent.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequest.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKProfilePictureView.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/Bolts/Bolts/iOS/BFAppLinkReturnToRefererView.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKUtility.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkUtility.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Intermediates/Pods.build/Debug-iphonesimulator/FacebookCore.build/unextended-module.modulemap"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Intermediates/Pods.build/Debug-iphonesimulator/Bolts.build/module.modulemap"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Intermediates/Pods.build/Debug-iphonesimulator/FBSDKCoreKit.build/module.modulemap"
+interface-hash: "adbfdec75dd4d469eb1197707c982b4a"
