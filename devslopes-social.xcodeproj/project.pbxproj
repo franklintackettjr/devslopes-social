@@ -11,6 +11,7 @@
 		7D07CD491EDC244500675C53 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D07CD481EDC244500675C53 /* CircleView.swift */; };
 		7D07CD4B1EDC306800675C53 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D07CD4A1EDC306800675C53 /* PostCell.swift */; };
 		7D07CD4E1EDC456C00675C53 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D07CD4D1EDC456C00675C53 /* DataService.swift */; };
+		7D07CD501EDC64A300675C53 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D07CD4F1EDC64A300675C53 /* Post.swift */; };
 		7DF439961EDB72BE00513CCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF439951EDB72BE00513CCF /* AppDelegate.swift */; };
 		7DF439981EDB72BE00513CCF /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF439971EDB72BE00513CCF /* SignInVC.swift */; };
 		7DF4399B1EDB72BE00513CCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DF439991EDB72BE00513CCF /* Main.storyboard */; };
@@ -31,6 +32,7 @@
 		7D07CD481EDC244500675C53 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		7D07CD4A1EDC306800675C53 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		7D07CD4D1EDC456C00675C53 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		7D07CD4F1EDC64A300675C53 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		7DF439921EDB72BE00513CCF /* devslopes-social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "devslopes-social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DF439951EDB72BE00513CCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DF439971EDB72BE00513CCF /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 		7DF439AB1EDB770C00513CCF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7D07CD4F1EDC64A300675C53 /* Post.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				7D07CD491EDC244500675C53 /* CircleView.swift in Sources */,
 				7DF439B41EDB93C900513CCF /* FancyField.swift in Sources */,
 				7DF439981EDB72BE00513CCF /* SignInVC.swift in Sources */,
+				7D07CD501EDC64A300675C53 /* Post.swift in Sources */,
 				7DF439B21EDB91E500513CCF /* RoundBtn.swift in Sources */,
 				7DF439961EDB72BE00513CCF /* AppDelegate.swift in Sources */,
 				7D07CD4E1EDC456C00675C53 /* DataService.swift in Sources */,
