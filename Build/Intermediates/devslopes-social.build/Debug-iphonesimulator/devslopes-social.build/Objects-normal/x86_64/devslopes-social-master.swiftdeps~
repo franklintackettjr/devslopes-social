@@ -1,12 +1,13 @@
 version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
 options: "38683d9ea8658d787b2725b5648ae1ca"
-build_time: [549370786, 365290000]
+build_time: [549376558, 674414000]
 inputs:
-  "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/devslopes-social/CircleView.swift": [549370785, 0]
+  "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/devslopes-social/CircleView.swift": [549371047, 0]
   "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/devslopes-social/FancyField.swift": [549330060, 0]
-  "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/devslopes-social/SignInVC.swift": [549359020, 0]
+  "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/devslopes-social/SignInVC.swift": [549376557, 0]
   "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/devslopes-social/RoundBtn.swift": [549366825, 0]
   "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/devslopes-social/AppDelegate.swift": [549355036, 0]
+  "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/devslopes-social/DataService.swift": [549376052, 0]
   "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/devslopes-social/FeedVC.swift": [549369620, 0]
   "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/devslopes-social/FancyView.swift": [549363704, 0]
   "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/devslopes-social/Constants.swift": [549358295, 0]

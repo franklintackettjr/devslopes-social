@@ -160,22 +160,16 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e5G-aj-clg" customClass="FancyView" customModule="devslopes_social" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="65"/>
                                 <subviews>
-                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ydu-Ls-Od3">
-                                        <rect key="frame" x="8" y="0.0" width="79" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Sign Out">
-                                            <color key="titleColor" red="0.094117647058823528" green="0.094126455489999997" blue="0.09410081059" alpha="0.87" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="signOutTapped:" destination="0PR-YV-b0x" eventType="touchUpInside" id="J7T-2K-S4K"/>
-                                        </connections>
-                                    </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sign-out" translatesAutoresizingMaskIntoConstraints="NO" id="KYH-rh-wLQ">
+                                    <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sign-out" translatesAutoresizingMaskIntoConstraints="NO" id="KYH-rh-wLQ">
                                         <rect key="frame" x="16" y="16" width="45" height="38"/>
+                                        <gestureRecognizers/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="45" id="TKG-B8-FdT"/>
                                             <constraint firstAttribute="height" constant="38" id="zee-6K-HpZ"/>
                                         </constraints>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="ewE-dd-sEW" appends="YES" id="qhv-tg-Lbe"/>
+                                        </connections>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Feed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nXf-Vp-aI6">
                                         <rect key="frame" x="157.5" y="17.5" width="59.5" height="36"/>
@@ -359,6 +353,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zk4-94-ZJF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="ewE-dd-sEW">
+                    <connections>
+                        <action selector="signOutTapped:" destination="0PR-YV-b0x" id="q8N-vG-WFj"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="916" y="135.38230884557723"/>
         </scene>

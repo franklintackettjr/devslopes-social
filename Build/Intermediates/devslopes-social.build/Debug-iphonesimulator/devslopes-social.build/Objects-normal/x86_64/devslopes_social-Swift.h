@@ -246,7 +246,7 @@ SWIFT_CLASS("_TtC16devslopes_social8SignInVC")
 - (IBAction)facebookBtnTapped:(id _Nonnull)sender;
 - (void)firebaseAuth:(FIRAuthCredential * _Nonnull)credential;
 - (IBAction)signInTapped:(id _Nonnull)sender;
-- (void)completeSignInId:(NSString * _Nonnull)id;
+- (void)completeSignInId:(NSString * _Nonnull)id userData:(NSDictionary<NSString *, NSString *> * _Nonnull)userData;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

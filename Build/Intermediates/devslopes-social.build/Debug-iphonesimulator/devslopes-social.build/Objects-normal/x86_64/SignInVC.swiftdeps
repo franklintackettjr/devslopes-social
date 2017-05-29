@@ -22,6 +22,8 @@ depends-top-level:
 - "AuthCredential"
 - "Bool"
 - "BooleanLiteralType"
+- !private "DataService"
+- "Dictionary"
 - !private "FBSDKAccessToken"
 - !private "FBSDKLoginManager"
 - !private "FacebookAuthProvider"
@@ -34,6 +36,7 @@ depends-top-level:
 - !private "print"
 depends-member:
 - !private ["Ps9AnyObject", "Auth"]
+- !private ["Ps9AnyObject", "DataService"]
 - !private ["Ps9AnyObject", "FBSDKAccessToken"]
 - !private ["Ps9AnyObject", "FBSDKLoginManager"]
 - !private ["Ps9AnyObject", "FacebookAuthProvider"]
@@ -42,9 +45,11 @@ depends-member:
 - !private ["Ps9AnyObject", "String"]
 - !private ["Ps9AnyObject", "auth"]
 - !private ["Ps9AnyObject", "completeSignIn"]
+- !private ["Ps9AnyObject", "createFirebaseDBUser"]
 - !private ["Ps9AnyObject", "createUser"]
 - !private ["Ps9AnyObject", "credential"]
 - !private ["Ps9AnyObject", "current"]
+- !private ["Ps9AnyObject", "ds"]
 - !private ["Ps9AnyObject", "emailField"]
 - !private ["Ps9AnyObject", "firebaseAuth"]
 - !private ["Ps9AnyObject", "init"]
@@ -52,6 +57,8 @@ depends-member:
 - !private ["Ps9AnyObject", "logIn"]
 - !private ["Ps9AnyObject", "performSegue"]
 - !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "provider"]
+- !private ["Ps9AnyObject", "providerID"]
 - !private ["Ps9AnyObject", "pwdField"]
 - !private ["Ps9AnyObject", "set"]
 - !private ["Ps9AnyObject", "signIn"]
@@ -65,9 +72,11 @@ depends-member:
 - !private ["CSo4Auth", "auth"]
 - !private ["CSo4Auth", "createUser"]
 - !private ["CSo4Auth", "signIn"]
+- !private ["CSo14AuthCredential", "provider"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["PSo15CALayerDelegate", "text"]
 - !private ["Ps7CVarArg", "Auth"]
+- !private ["Ps7CVarArg", "DataService"]
 - !private ["Ps7CVarArg", "FBSDKAccessToken"]
 - !private ["Ps7CVarArg", "FBSDKLoginManager"]
 - !private ["Ps7CVarArg", "FacebookAuthProvider"]
@@ -86,6 +95,8 @@ depends-member:
 - !private ["Ps7CVarArg", "logIn"]
 - !private ["Ps7CVarArg", "performSegue"]
 - !private ["Ps7CVarArg", "print"]
+- !private ["Ps7CVarArg", "provider"]
+- !private ["Ps7CVarArg", "providerID"]
 - !private ["Ps7CVarArg", "pwdField"]
 - !private ["Ps7CVarArg", "signIn"]
 - !private ["Ps7CVarArg", "text"]
@@ -95,6 +106,7 @@ depends-member:
 - ["Ps7CVarArg", ""]
 - !private ["Ps10Comparable", "init"]
 - !private ["Ps28CustomDebugStringConvertible", "Auth"]
+- !private ["Ps28CustomDebugStringConvertible", "DataService"]
 - !private ["Ps28CustomDebugStringConvertible", "FBSDKAccessToken"]
 - !private ["Ps28CustomDebugStringConvertible", "FBSDKLoginManager"]
 - !private ["Ps28CustomDebugStringConvertible", "FacebookAuthProvider"]
@@ -113,6 +125,8 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "logIn"]
 - !private ["Ps28CustomDebugStringConvertible", "performSegue"]
 - !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "provider"]
+- !private ["Ps28CustomDebugStringConvertible", "providerID"]
 - !private ["Ps28CustomDebugStringConvertible", "pwdField"]
 - !private ["Ps28CustomDebugStringConvertible", "signIn"]
 - !private ["Ps28CustomDebugStringConvertible", "text"]
@@ -125,6 +139,7 @@ depends-member:
 - !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
 - !private ["Ps17CustomReflectable", "init"]
 - !private ["Ps23CustomStringConvertible", "Auth"]
+- !private ["Ps23CustomStringConvertible", "DataService"]
 - !private ["Ps23CustomStringConvertible", "FBSDKAccessToken"]
 - !private ["Ps23CustomStringConvertible", "FBSDKLoginManager"]
 - !private ["Ps23CustomStringConvertible", "FacebookAuthProvider"]
@@ -144,6 +159,8 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "logIn"]
 - !private ["Ps23CustomStringConvertible", "performSegue"]
 - !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "provider"]
+- !private ["Ps23CustomStringConvertible", "providerID"]
 - !private ["Ps23CustomStringConvertible", "pwdField"]
 - !private ["Ps23CustomStringConvertible", "signIn"]
 - !private ["Ps23CustomStringConvertible", "text"]
@@ -151,7 +168,10 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "uid"]
 - !private ["Ps23CustomStringConvertible", "viewDidLoad"]
 - ["Ps23CustomStringConvertible", ""]
+- !private ["C16devslopes_social11DataService", "createFirebaseDBUser"]
+- !private ["C16devslopes_social11DataService", "ds"]
 - !private ["Ps9Equatable", "Auth"]
+- !private ["Ps9Equatable", "DataService"]
 - !private ["Ps9Equatable", "FBSDKAccessToken"]
 - !private ["Ps9Equatable", "FBSDKLoginManager"]
 - !private ["Ps9Equatable", "FacebookAuthProvider"]
@@ -171,6 +191,8 @@ depends-member:
 - !private ["Ps9Equatable", "logIn"]
 - !private ["Ps9Equatable", "performSegue"]
 - !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "provider"]
+- !private ["Ps9Equatable", "providerID"]
 - !private ["Ps9Equatable", "pwdField"]
 - !private ["Ps9Equatable", "signIn"]
 - !private ["Ps9Equatable", "text"]
@@ -193,6 +215,7 @@ depends-member:
 - !private ["C16devslopes_social10FancyField", "deinit"]
 - !private ["C16devslopes_social10FancyField", "text"]
 - !private ["Ps8Hashable", "Auth"]
+- !private ["Ps8Hashable", "DataService"]
 - !private ["Ps8Hashable", "FBSDKAccessToken"]
 - !private ["Ps8Hashable", "FBSDKLoginManager"]
 - !private ["Ps8Hashable", "FacebookAuthProvider"]
@@ -212,6 +235,8 @@ depends-member:
 - !private ["Ps8Hashable", "logIn"]
 - !private ["Ps8Hashable", "performSegue"]
 - !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "provider"]
+- !private ["Ps8Hashable", "providerID"]
 - !private ["Ps8Hashable", "pwdField"]
 - !private ["Ps8Hashable", "signIn"]
 - !private ["Ps8Hashable", "text"]
@@ -226,6 +251,7 @@ depends-member:
 - !private ["Ps25LosslessStringConvertible", "init"]
 - !private ["Ps10MirrorPath", "init"]
 - !private ["PSo8NSCoding", "Auth"]
+- !private ["PSo8NSCoding", "DataService"]
 - !private ["PSo8NSCoding", "FBSDKAccessToken"]
 - !private ["PSo8NSCoding", "FBSDKLoginManager"]
 - !private ["PSo8NSCoding", "FacebookAuthProvider"]
@@ -248,6 +274,7 @@ depends-member:
 - !private ["PSo9NSCopying", "init"]
 - !private ["PSo9NSCopying", "tokenString"]
 - !private ["PSo26NSExtensionRequestHandling", "Auth"]
+- !private ["PSo26NSExtensionRequestHandling", "DataService"]
 - !private ["PSo26NSExtensionRequestHandling", "FBSDKAccessToken"]
 - !private ["PSo26NSExtensionRequestHandling", "FBSDKLoginManager"]
 - !private ["PSo26NSExtensionRequestHandling", "FacebookAuthProvider"]
@@ -267,6 +294,8 @@ depends-member:
 - !private ["CSo8NSObject", "Auth"]
 - ["CSo8NSObject", "AuthCredential"]
 - ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "DataService"]
+- ["CSo8NSObject", "Dictionary"]
 - !private ["CSo8NSObject", "FBSDKAccessToken"]
 - !private ["CSo8NSObject", "FBSDKLoginManager"]
 - !private ["CSo8NSObject", "FacebookAuthProvider"]
@@ -287,6 +316,8 @@ depends-member:
 - !private ["CSo8NSObject", "logIn"]
 - !private ["CSo8NSObject", "performSegue"]
 - !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "provider"]
+- !private ["CSo8NSObject", "providerID"]
 - ["CSo8NSObject", "pwdField"]
 - !private ["CSo8NSObject", "signIn"]
 - ["CSo8NSObject", "signInTapped"]
@@ -296,6 +327,7 @@ depends-member:
 - ["CSo8NSObject", "viewDidAppear"]
 - ["CSo8NSObject", "viewDidLoad"]
 - !private ["PSo16NSObjectProtocol", "Auth"]
+- !private ["PSo16NSObjectProtocol", "DataService"]
 - !private ["PSo16NSObjectProtocol", "FBSDKAccessToken"]
 - !private ["PSo16NSObjectProtocol", "FBSDKLoginManager"]
 - !private ["PSo16NSObjectProtocol", "FacebookAuthProvider"]
@@ -314,6 +346,8 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "logIn"]
 - !private ["PSo16NSObjectProtocol", "performSegue"]
 - !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "provider"]
+- !private ["PSo16NSObjectProtocol", "providerID"]
 - !private ["PSo16NSObjectProtocol", "pwdField"]
 - !private ["PSo16NSObjectProtocol", "signIn"]
 - !private ["PSo16NSObjectProtocol", "text"]
@@ -328,6 +362,8 @@ depends-member:
 - !private ["C16devslopes_social8SignInVC", "Auth"]
 - ["C16devslopes_social8SignInVC", "AuthCredential"]
 - ["C16devslopes_social8SignInVC", "Bool"]
+- !private ["C16devslopes_social8SignInVC", "DataService"]
+- ["C16devslopes_social8SignInVC", "Dictionary"]
 - !private ["C16devslopes_social8SignInVC", "FBSDKAccessToken"]
 - !private ["C16devslopes_social8SignInVC", "FBSDKLoginManager"]
 - !private ["C16devslopes_social8SignInVC", "FacebookAuthProvider"]
@@ -353,6 +389,7 @@ depends-member:
 - !private ["PSo29UIAccessibilityIdentification", "text"]
 - !private ["PSo12UIAppearance", "text"]
 - !private ["PSo21UIAppearanceContainer", "Auth"]
+- !private ["PSo21UIAppearanceContainer", "DataService"]
 - !private ["PSo21UIAppearanceContainer", "FBSDKAccessToken"]
 - !private ["PSo21UIAppearanceContainer", "FBSDKLoginManager"]
 - !private ["PSo21UIAppearanceContainer", "FacebookAuthProvider"]
@@ -370,6 +407,7 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "viewDidLoad"]
 - ["PSo21UIAppearanceContainer", ""]
 - !private ["PSo18UIContentContainer", "Auth"]
+- !private ["PSo18UIContentContainer", "DataService"]
 - !private ["PSo18UIContentContainer", "FBSDKAccessToken"]
 - !private ["PSo18UIContentContainer", "FBSDKLoginManager"]
 - !private ["PSo18UIContentContainer", "FacebookAuthProvider"]
@@ -390,6 +428,7 @@ depends-member:
 - !private ["PSo17UICoordinateSpace", "text"]
 - !private ["PSo13UIDynamicItem", "text"]
 - !private ["PSo18UIFocusEnvironment", "Auth"]
+- !private ["PSo18UIFocusEnvironment", "DataService"]
 - !private ["PSo18UIFocusEnvironment", "FBSDKAccessToken"]
 - !private ["PSo18UIFocusEnvironment", "FBSDKLoginManager"]
 - !private ["PSo18UIFocusEnvironment", "FacebookAuthProvider"]
@@ -411,6 +450,8 @@ depends-member:
 - !private ["CSo11UIResponder", "Auth"]
 - ["CSo11UIResponder", "AuthCredential"]
 - ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "DataService"]
+- ["CSo11UIResponder", "Dictionary"]
 - !private ["CSo11UIResponder", "FBSDKAccessToken"]
 - !private ["CSo11UIResponder", "FBSDKLoginManager"]
 - !private ["CSo11UIResponder", "FacebookAuthProvider"]
@@ -431,6 +472,7 @@ depends-member:
 - ["CSo11UIResponder", "viewDidAppear"]
 - ["CSo11UIResponder", "viewDidLoad"]
 - !private ["PSo30UIResponderStandardEditActions", "Auth"]
+- !private ["PSo30UIResponderStandardEditActions", "DataService"]
 - !private ["PSo30UIResponderStandardEditActions", "FBSDKAccessToken"]
 - !private ["PSo30UIResponderStandardEditActions", "FBSDKLoginManager"]
 - !private ["PSo30UIResponderStandardEditActions", "FacebookAuthProvider"]
@@ -448,6 +490,7 @@ depends-member:
 - !private ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
 - ["PSo30UIResponderStandardEditActions", ""]
 - !private ["PSo16UIStateRestoring", "Auth"]
+- !private ["PSo16UIStateRestoring", "DataService"]
 - !private ["PSo16UIStateRestoring", "FBSDKAccessToken"]
 - !private ["PSo16UIStateRestoring", "FBSDKLoginManager"]
 - !private ["PSo16UIStateRestoring", "FacebookAuthProvider"]
@@ -467,6 +510,7 @@ depends-member:
 - !private ["PSo11UITextInput", "text"]
 - !private ["PSo17UITextInputTraits", "text"]
 - !private ["PSo18UITraitEnvironment", "Auth"]
+- !private ["PSo18UITraitEnvironment", "DataService"]
 - !private ["PSo18UITraitEnvironment", "FBSDKAccessToken"]
 - !private ["PSo18UITraitEnvironment", "FBSDKLoginManager"]
 - !private ["PSo18UITraitEnvironment", "FacebookAuthProvider"]
@@ -487,6 +531,8 @@ depends-member:
 - !private ["CSo16UIViewController", "Auth"]
 - ["CSo16UIViewController", "AuthCredential"]
 - ["CSo16UIViewController", "Bool"]
+- !private ["CSo16UIViewController", "DataService"]
+- ["CSo16UIViewController", "Dictionary"]
 - !private ["CSo16UIViewController", "FBSDKAccessToken"]
 - !private ["CSo16UIViewController", "FBSDKLoginManager"]
 - !private ["CSo16UIViewController", "FacebookAuthProvider"]
@@ -506,7 +552,9 @@ depends-member:
 - ["CSo16UIViewController", "viewDidAppear"]
 - ["CSo16UIViewController", "viewDidLoad"]
 - ["CSo16UIViewController", ""]
+- !private ["CSo4User", "providerID"]
 - !private ["CSo4User", "uid"]
+- !private ["PSo8UserInfo", "providerID"]
 - !private ["PSo8UserInfo", "uid"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
 - !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
@@ -517,6 +565,7 @@ depends-member:
 - !private ["Ps33_ExpressibleByStringInterpolation", "init"]
 - !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
 - !private ["Ps9_Hashable", "Auth"]
+- !private ["Ps9_Hashable", "DataService"]
 - !private ["Ps9_Hashable", "FBSDKAccessToken"]
 - !private ["Ps9_Hashable", "FBSDKLoginManager"]
 - !private ["Ps9_Hashable", "FacebookAuthProvider"]
@@ -536,6 +585,8 @@ depends-member:
 - !private ["Ps9_Hashable", "logIn"]
 - !private ["Ps9_Hashable", "performSegue"]
 - !private ["Ps9_Hashable", "print"]
+- !private ["Ps9_Hashable", "provider"]
+- !private ["Ps9_Hashable", "providerID"]
 - !private ["Ps9_Hashable", "pwdField"]
 - !private ["Ps9_Hashable", "signIn"]
 - !private ["Ps9_Hashable", "text"]
@@ -548,6 +599,7 @@ depends-member:
 depends-nominal:
 - "Ps9AnyObject"
 - !private "CSo4Auth"
+- !private "CSo14AuthCredential"
 - !private "Sb"
 - !private "PSo15CALayerDelegate"
 - "Ps7CVarArg"
@@ -556,6 +608,7 @@ depends-nominal:
 - !private "Ps29CustomPlaygroundQuickLookable"
 - !private "Ps17CustomReflectable"
 - "Ps23CustomStringConvertible"
+- !private "C16devslopes_social11DataService"
 - "Ps9Equatable"
 - !private "Ps27ExpressibleByBooleanLiteral"
 - !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
@@ -756,4 +809,4 @@ depends-external:
 - "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Modules/module.modulemap"
 - "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/module.modulemap"
 - "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap"
-interface-hash: "9a337ef0afa6def7e4ef1cfcec5de5ab"
+interface-hash: "e4bba0da109273a7b339560b0cac4027"

@@ -1,0 +1,801 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SignInVC"
+provides-nominal:
+- "C16devslopes_social8SignInVC"
+provides-member:
+- ["C16devslopes_social8SignInVC", ""]
+provides-dynamic-lookup:
+- "completeSignIn"
+- "emailField"
+- "facebookBtnTapped"
+- "firebaseAuth"
+- "pwdField"
+- "signInTapped"
+- "viewDidAppear"
+- "viewDidLoad"
+depends-top-level:
+- !private "!="
+- !private "=="
+- !private "Array"
+- !private "Auth"
+- "AuthCredential"
+- "Bool"
+- "BooleanLiteralType"
+- !private "DataService"
+- "Dictionary"
+- !private "FBSDKAccessToken"
+- !private "FBSDKLoginManager"
+- !private "FacebookAuthProvider"
+- "FancyField"
+- !private "KEY_UID"
+- !private "KeychainWrapper"
+- "SignInVC"
+- "String"
+- "UIViewController"
+- !private "print"
+depends-member:
+- !private ["Ps9AnyObject", "Auth"]
+- !private ["Ps9AnyObject", "DataService"]
+- !private ["Ps9AnyObject", "FBSDKAccessToken"]
+- !private ["Ps9AnyObject", "FBSDKLoginManager"]
+- !private ["Ps9AnyObject", "FacebookAuthProvider"]
+- !private ["Ps9AnyObject", "KEY_UID"]
+- !private ["Ps9AnyObject", "KeychainWrapper"]
+- !private ["Ps9AnyObject", "String"]
+- !private ["Ps9AnyObject", "auth"]
+- !private ["Ps9AnyObject", "completeSignIn"]
+- !private ["Ps9AnyObject", "createFirebaseDBUser"]
+- !private ["Ps9AnyObject", "createUser"]
+- !private ["Ps9AnyObject", "credential"]
+- !private ["Ps9AnyObject", "current"]
+- !private ["Ps9AnyObject", "ds"]
+- !private ["Ps9AnyObject", "emailField"]
+- !private ["Ps9AnyObject", "firebaseAuth"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isCancelled"]
+- !private ["Ps9AnyObject", "logIn"]
+- !private ["Ps9AnyObject", "performSegue"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "providerID"]
+- !private ["Ps9AnyObject", "pwdField"]
+- !private ["Ps9AnyObject", "set"]
+- !private ["Ps9AnyObject", "signIn"]
+- !private ["Ps9AnyObject", "standard"]
+- !private ["Ps9AnyObject", "string"]
+- !private ["Ps9AnyObject", "text"]
+- !private ["Ps9AnyObject", "tokenString"]
+- !private ["Ps9AnyObject", "uid"]
+- !private ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- !private ["CSo4Auth", "auth"]
+- !private ["CSo4Auth", "createUser"]
+- !private ["CSo4Auth", "signIn"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo15CALayerDelegate", "text"]
+- !private ["Ps7CVarArg", "Auth"]
+- !private ["Ps7CVarArg", "DataService"]
+- !private ["Ps7CVarArg", "FBSDKAccessToken"]
+- !private ["Ps7CVarArg", "FBSDKLoginManager"]
+- !private ["Ps7CVarArg", "FacebookAuthProvider"]
+- !private ["Ps7CVarArg", "KEY_UID"]
+- !private ["Ps7CVarArg", "KeychainWrapper"]
+- !private ["Ps7CVarArg", "String"]
+- !private ["Ps7CVarArg", "auth"]
+- !private ["Ps7CVarArg", "completeSignIn"]
+- !private ["Ps7CVarArg", "createUser"]
+- !private ["Ps7CVarArg", "credential"]
+- !private ["Ps7CVarArg", "current"]
+- !private ["Ps7CVarArg", "emailField"]
+- !private ["Ps7CVarArg", "firebaseAuth"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isCancelled"]
+- !private ["Ps7CVarArg", "logIn"]
+- !private ["Ps7CVarArg", "performSegue"]
+- !private ["Ps7CVarArg", "print"]
+- !private ["Ps7CVarArg", "providerID"]
+- !private ["Ps7CVarArg", "pwdField"]
+- !private ["Ps7CVarArg", "signIn"]
+- !private ["Ps7CVarArg", "text"]
+- !private ["Ps7CVarArg", "tokenString"]
+- !private ["Ps7CVarArg", "uid"]
+- !private ["Ps7CVarArg", "viewDidLoad"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Auth"]
+- !private ["Ps28CustomDebugStringConvertible", "DataService"]
+- !private ["Ps28CustomDebugStringConvertible", "FBSDKAccessToken"]
+- !private ["Ps28CustomDebugStringConvertible", "FBSDKLoginManager"]
+- !private ["Ps28CustomDebugStringConvertible", "FacebookAuthProvider"]
+- !private ["Ps28CustomDebugStringConvertible", "KEY_UID"]
+- !private ["Ps28CustomDebugStringConvertible", "KeychainWrapper"]
+- !private ["Ps28CustomDebugStringConvertible", "String"]
+- !private ["Ps28CustomDebugStringConvertible", "auth"]
+- !private ["Ps28CustomDebugStringConvertible", "completeSignIn"]
+- !private ["Ps28CustomDebugStringConvertible", "createUser"]
+- !private ["Ps28CustomDebugStringConvertible", "credential"]
+- !private ["Ps28CustomDebugStringConvertible", "current"]
+- !private ["Ps28CustomDebugStringConvertible", "emailField"]
+- !private ["Ps28CustomDebugStringConvertible", "firebaseAuth"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isCancelled"]
+- !private ["Ps28CustomDebugStringConvertible", "logIn"]
+- !private ["Ps28CustomDebugStringConvertible", "performSegue"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "providerID"]
+- !private ["Ps28CustomDebugStringConvertible", "pwdField"]
+- !private ["Ps28CustomDebugStringConvertible", "signIn"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- !private ["Ps28CustomDebugStringConvertible", "tokenString"]
+- !private ["Ps28CustomDebugStringConvertible", "uid"]
+- !private ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "Auth"]
+- !private ["Ps23CustomStringConvertible", "DataService"]
+- !private ["Ps23CustomStringConvertible", "FBSDKAccessToken"]
+- !private ["Ps23CustomStringConvertible", "FBSDKLoginManager"]
+- !private ["Ps23CustomStringConvertible", "FacebookAuthProvider"]
+- !private ["Ps23CustomStringConvertible", "KEY_UID"]
+- !private ["Ps23CustomStringConvertible", "KeychainWrapper"]
+- !private ["Ps23CustomStringConvertible", "String"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "auth"]
+- !private ["Ps23CustomStringConvertible", "completeSignIn"]
+- !private ["Ps23CustomStringConvertible", "createUser"]
+- !private ["Ps23CustomStringConvertible", "credential"]
+- !private ["Ps23CustomStringConvertible", "current"]
+- !private ["Ps23CustomStringConvertible", "emailField"]
+- !private ["Ps23CustomStringConvertible", "firebaseAuth"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isCancelled"]
+- !private ["Ps23CustomStringConvertible", "logIn"]
+- !private ["Ps23CustomStringConvertible", "performSegue"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "providerID"]
+- !private ["Ps23CustomStringConvertible", "pwdField"]
+- !private ["Ps23CustomStringConvertible", "signIn"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- !private ["Ps23CustomStringConvertible", "tokenString"]
+- !private ["Ps23CustomStringConvertible", "uid"]
+- !private ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["C16devslopes_social11DataService", "createFirebaseDBUser"]
+- !private ["C16devslopes_social11DataService", "ds"]
+- !private ["Ps9Equatable", "Auth"]
+- !private ["Ps9Equatable", "DataService"]
+- !private ["Ps9Equatable", "FBSDKAccessToken"]
+- !private ["Ps9Equatable", "FBSDKLoginManager"]
+- !private ["Ps9Equatable", "FacebookAuthProvider"]
+- !private ["Ps9Equatable", "KEY_UID"]
+- !private ["Ps9Equatable", "KeychainWrapper"]
+- !private ["Ps9Equatable", "String"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "auth"]
+- !private ["Ps9Equatable", "completeSignIn"]
+- !private ["Ps9Equatable", "createUser"]
+- !private ["Ps9Equatable", "credential"]
+- !private ["Ps9Equatable", "current"]
+- !private ["Ps9Equatable", "emailField"]
+- !private ["Ps9Equatable", "firebaseAuth"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isCancelled"]
+- !private ["Ps9Equatable", "logIn"]
+- !private ["Ps9Equatable", "performSegue"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "providerID"]
+- !private ["Ps9Equatable", "pwdField"]
+- !private ["Ps9Equatable", "signIn"]
+- !private ["Ps9Equatable", "text"]
+- !private ["Ps9Equatable", "tokenString"]
+- !private ["Ps9Equatable", "uid"]
+- !private ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["CSo16FBSDKAccessToken", "current"]
+- !private ["CSo16FBSDKAccessToken", "tokenString"]
+- !private ["PSo12FBSDKCopying", "current"]
+- !private ["PSo12FBSDKCopying", "tokenString"]
+- !private ["CSo17FBSDKLoginManager", "init"]
+- !private ["CSo17FBSDKLoginManager", "logIn"]
+- !private ["CSo28FBSDKLoginManagerLoginResult", "isCancelled"]
+- !private ["CSo20FacebookAuthProvider", "credential"]
+- !private ["C16devslopes_social10FancyField", "deinit"]
+- !private ["C16devslopes_social10FancyField", "text"]
+- !private ["Ps8Hashable", "Auth"]
+- !private ["Ps8Hashable", "DataService"]
+- !private ["Ps8Hashable", "FBSDKAccessToken"]
+- !private ["Ps8Hashable", "FBSDKLoginManager"]
+- !private ["Ps8Hashable", "FacebookAuthProvider"]
+- !private ["Ps8Hashable", "KEY_UID"]
+- !private ["Ps8Hashable", "KeychainWrapper"]
+- !private ["Ps8Hashable", "String"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "auth"]
+- !private ["Ps8Hashable", "completeSignIn"]
+- !private ["Ps8Hashable", "createUser"]
+- !private ["Ps8Hashable", "credential"]
+- !private ["Ps8Hashable", "current"]
+- !private ["Ps8Hashable", "emailField"]
+- !private ["Ps8Hashable", "firebaseAuth"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isCancelled"]
+- !private ["Ps8Hashable", "logIn"]
+- !private ["Ps8Hashable", "performSegue"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "providerID"]
+- !private ["Ps8Hashable", "pwdField"]
+- !private ["Ps8Hashable", "signIn"]
+- !private ["Ps8Hashable", "text"]
+- !private ["Ps8Hashable", "tokenString"]
+- !private ["Ps8Hashable", "uid"]
+- !private ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- !private ["C20SwiftKeychainWrapper15KeychainWrapper", "set"]
+- !private ["C20SwiftKeychainWrapper15KeychainWrapper", "standard"]
+- !private ["C20SwiftKeychainWrapper15KeychainWrapper", "string"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "Auth"]
+- !private ["PSo8NSCoding", "DataService"]
+- !private ["PSo8NSCoding", "FBSDKAccessToken"]
+- !private ["PSo8NSCoding", "FBSDKLoginManager"]
+- !private ["PSo8NSCoding", "FacebookAuthProvider"]
+- !private ["PSo8NSCoding", "KEY_UID"]
+- !private ["PSo8NSCoding", "KeychainWrapper"]
+- !private ["PSo8NSCoding", "String"]
+- !private ["PSo8NSCoding", "completeSignIn"]
+- !private ["PSo8NSCoding", "current"]
+- !private ["PSo8NSCoding", "emailField"]
+- !private ["PSo8NSCoding", "firebaseAuth"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "performSegue"]
+- !private ["PSo8NSCoding", "print"]
+- !private ["PSo8NSCoding", "pwdField"]
+- !private ["PSo8NSCoding", "text"]
+- !private ["PSo8NSCoding", "tokenString"]
+- !private ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "current"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "tokenString"]
+- !private ["PSo26NSExtensionRequestHandling", "Auth"]
+- !private ["PSo26NSExtensionRequestHandling", "DataService"]
+- !private ["PSo26NSExtensionRequestHandling", "FBSDKAccessToken"]
+- !private ["PSo26NSExtensionRequestHandling", "FBSDKLoginManager"]
+- !private ["PSo26NSExtensionRequestHandling", "FacebookAuthProvider"]
+- !private ["PSo26NSExtensionRequestHandling", "KEY_UID"]
+- !private ["PSo26NSExtensionRequestHandling", "KeychainWrapper"]
+- !private ["PSo26NSExtensionRequestHandling", "String"]
+- !private ["PSo26NSExtensionRequestHandling", "completeSignIn"]
+- !private ["PSo26NSExtensionRequestHandling", "emailField"]
+- !private ["PSo26NSExtensionRequestHandling", "firebaseAuth"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "performSegue"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- !private ["PSo26NSExtensionRequestHandling", "pwdField"]
+- !private ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "Auth"]
+- ["CSo8NSObject", "AuthCredential"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "DataService"]
+- ["CSo8NSObject", "Dictionary"]
+- !private ["CSo8NSObject", "FBSDKAccessToken"]
+- !private ["CSo8NSObject", "FBSDKLoginManager"]
+- !private ["CSo8NSObject", "FacebookAuthProvider"]
+- ["CSo8NSObject", "FancyField"]
+- !private ["CSo8NSObject", "KEY_UID"]
+- !private ["CSo8NSObject", "KeychainWrapper"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "auth"]
+- ["CSo8NSObject", "completeSignIn"]
+- !private ["CSo8NSObject", "createUser"]
+- !private ["CSo8NSObject", "credential"]
+- !private ["CSo8NSObject", "current"]
+- ["CSo8NSObject", "emailField"]
+- ["CSo8NSObject", "facebookBtnTapped"]
+- ["CSo8NSObject", "firebaseAuth"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isCancelled"]
+- !private ["CSo8NSObject", "logIn"]
+- !private ["CSo8NSObject", "performSegue"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "providerID"]
+- ["CSo8NSObject", "pwdField"]
+- !private ["CSo8NSObject", "signIn"]
+- ["CSo8NSObject", "signInTapped"]
+- !private ["CSo8NSObject", "text"]
+- !private ["CSo8NSObject", "tokenString"]
+- !private ["CSo8NSObject", "uid"]
+- ["CSo8NSObject", "viewDidAppear"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "Auth"]
+- !private ["PSo16NSObjectProtocol", "DataService"]
+- !private ["PSo16NSObjectProtocol", "FBSDKAccessToken"]
+- !private ["PSo16NSObjectProtocol", "FBSDKLoginManager"]
+- !private ["PSo16NSObjectProtocol", "FacebookAuthProvider"]
+- !private ["PSo16NSObjectProtocol", "KEY_UID"]
+- !private ["PSo16NSObjectProtocol", "KeychainWrapper"]
+- !private ["PSo16NSObjectProtocol", "String"]
+- !private ["PSo16NSObjectProtocol", "auth"]
+- !private ["PSo16NSObjectProtocol", "completeSignIn"]
+- !private ["PSo16NSObjectProtocol", "createUser"]
+- !private ["PSo16NSObjectProtocol", "credential"]
+- !private ["PSo16NSObjectProtocol", "current"]
+- !private ["PSo16NSObjectProtocol", "emailField"]
+- !private ["PSo16NSObjectProtocol", "firebaseAuth"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isCancelled"]
+- !private ["PSo16NSObjectProtocol", "logIn"]
+- !private ["PSo16NSObjectProtocol", "performSegue"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "providerID"]
+- !private ["PSo16NSObjectProtocol", "pwdField"]
+- !private ["PSo16NSObjectProtocol", "signIn"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- !private ["PSo16NSObjectProtocol", "tokenString"]
+- !private ["PSo16NSObjectProtocol", "uid"]
+- !private ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "current"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "tokenString"]
+- !private ["CSo8NSString", "init"]
+- !private ["C16devslopes_social8SignInVC", "Auth"]
+- ["C16devslopes_social8SignInVC", "AuthCredential"]
+- ["C16devslopes_social8SignInVC", "Bool"]
+- !private ["C16devslopes_social8SignInVC", "DataService"]
+- ["C16devslopes_social8SignInVC", "Dictionary"]
+- !private ["C16devslopes_social8SignInVC", "FBSDKAccessToken"]
+- !private ["C16devslopes_social8SignInVC", "FBSDKLoginManager"]
+- !private ["C16devslopes_social8SignInVC", "FacebookAuthProvider"]
+- ["C16devslopes_social8SignInVC", "FancyField"]
+- !private ["C16devslopes_social8SignInVC", "KEY_UID"]
+- !private ["C16devslopes_social8SignInVC", "KeychainWrapper"]
+- ["C16devslopes_social8SignInVC", "String"]
+- ["C16devslopes_social8SignInVC", "completeSignIn"]
+- ["C16devslopes_social8SignInVC", "deinit"]
+- ["C16devslopes_social8SignInVC", "emailField"]
+- ["C16devslopes_social8SignInVC", "facebookBtnTapped"]
+- ["C16devslopes_social8SignInVC", "firebaseAuth"]
+- ["C16devslopes_social8SignInVC", "init"]
+- !private ["C16devslopes_social8SignInVC", "performSegue"]
+- !private ["C16devslopes_social8SignInVC", "print"]
+- ["C16devslopes_social8SignInVC", "pwdField"]
+- ["C16devslopes_social8SignInVC", "signInTapped"]
+- ["C16devslopes_social8SignInVC", "viewDidAppear"]
+- ["C16devslopes_social8SignInVC", "viewDidLoad"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo21UIAppearanceContainer", "Auth"]
+- !private ["PSo21UIAppearanceContainer", "DataService"]
+- !private ["PSo21UIAppearanceContainer", "FBSDKAccessToken"]
+- !private ["PSo21UIAppearanceContainer", "FBSDKLoginManager"]
+- !private ["PSo21UIAppearanceContainer", "FacebookAuthProvider"]
+- !private ["PSo21UIAppearanceContainer", "KEY_UID"]
+- !private ["PSo21UIAppearanceContainer", "KeychainWrapper"]
+- !private ["PSo21UIAppearanceContainer", "String"]
+- !private ["PSo21UIAppearanceContainer", "completeSignIn"]
+- !private ["PSo21UIAppearanceContainer", "emailField"]
+- !private ["PSo21UIAppearanceContainer", "firebaseAuth"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "performSegue"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- !private ["PSo21UIAppearanceContainer", "pwdField"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- !private ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "Auth"]
+- !private ["PSo18UIContentContainer", "DataService"]
+- !private ["PSo18UIContentContainer", "FBSDKAccessToken"]
+- !private ["PSo18UIContentContainer", "FBSDKLoginManager"]
+- !private ["PSo18UIContentContainer", "FacebookAuthProvider"]
+- !private ["PSo18UIContentContainer", "KEY_UID"]
+- !private ["PSo18UIContentContainer", "KeychainWrapper"]
+- !private ["PSo18UIContentContainer", "String"]
+- !private ["PSo18UIContentContainer", "completeSignIn"]
+- !private ["PSo18UIContentContainer", "emailField"]
+- !private ["PSo18UIContentContainer", "firebaseAuth"]
+- !private ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "performSegue"]
+- !private ["PSo18UIContentContainer", "print"]
+- !private ["PSo18UIContentContainer", "pwdField"]
+- !private ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "text"]
+- !private ["CSo9UIControl", "text"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo18UIFocusEnvironment", "Auth"]
+- !private ["PSo18UIFocusEnvironment", "DataService"]
+- !private ["PSo18UIFocusEnvironment", "FBSDKAccessToken"]
+- !private ["PSo18UIFocusEnvironment", "FBSDKLoginManager"]
+- !private ["PSo18UIFocusEnvironment", "FacebookAuthProvider"]
+- !private ["PSo18UIFocusEnvironment", "KEY_UID"]
+- !private ["PSo18UIFocusEnvironment", "KeychainWrapper"]
+- !private ["PSo18UIFocusEnvironment", "String"]
+- !private ["PSo18UIFocusEnvironment", "completeSignIn"]
+- !private ["PSo18UIFocusEnvironment", "emailField"]
+- !private ["PSo18UIFocusEnvironment", "firebaseAuth"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "performSegue"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- !private ["PSo18UIFocusEnvironment", "pwdField"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- !private ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "text"]
+- !private ["PSo10UIKeyInput", "text"]
+- !private ["CSo11UIResponder", "Auth"]
+- ["CSo11UIResponder", "AuthCredential"]
+- ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "DataService"]
+- ["CSo11UIResponder", "Dictionary"]
+- !private ["CSo11UIResponder", "FBSDKAccessToken"]
+- !private ["CSo11UIResponder", "FBSDKLoginManager"]
+- !private ["CSo11UIResponder", "FacebookAuthProvider"]
+- ["CSo11UIResponder", "FancyField"]
+- !private ["CSo11UIResponder", "KEY_UID"]
+- !private ["CSo11UIResponder", "KeychainWrapper"]
+- ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "completeSignIn"]
+- ["CSo11UIResponder", "emailField"]
+- ["CSo11UIResponder", "facebookBtnTapped"]
+- ["CSo11UIResponder", "firebaseAuth"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "performSegue"]
+- !private ["CSo11UIResponder", "print"]
+- ["CSo11UIResponder", "pwdField"]
+- ["CSo11UIResponder", "signInTapped"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "viewDidAppear"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo30UIResponderStandardEditActions", "Auth"]
+- !private ["PSo30UIResponderStandardEditActions", "DataService"]
+- !private ["PSo30UIResponderStandardEditActions", "FBSDKAccessToken"]
+- !private ["PSo30UIResponderStandardEditActions", "FBSDKLoginManager"]
+- !private ["PSo30UIResponderStandardEditActions", "FacebookAuthProvider"]
+- !private ["PSo30UIResponderStandardEditActions", "KEY_UID"]
+- !private ["PSo30UIResponderStandardEditActions", "KeychainWrapper"]
+- !private ["PSo30UIResponderStandardEditActions", "String"]
+- !private ["PSo30UIResponderStandardEditActions", "completeSignIn"]
+- !private ["PSo30UIResponderStandardEditActions", "emailField"]
+- !private ["PSo30UIResponderStandardEditActions", "firebaseAuth"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "performSegue"]
+- !private ["PSo30UIResponderStandardEditActions", "print"]
+- !private ["PSo30UIResponderStandardEditActions", "pwdField"]
+- !private ["PSo30UIResponderStandardEditActions", "text"]
+- !private ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo16UIStateRestoring", "Auth"]
+- !private ["PSo16UIStateRestoring", "DataService"]
+- !private ["PSo16UIStateRestoring", "FBSDKAccessToken"]
+- !private ["PSo16UIStateRestoring", "FBSDKLoginManager"]
+- !private ["PSo16UIStateRestoring", "FacebookAuthProvider"]
+- !private ["PSo16UIStateRestoring", "KEY_UID"]
+- !private ["PSo16UIStateRestoring", "KeychainWrapper"]
+- !private ["PSo16UIStateRestoring", "String"]
+- !private ["PSo16UIStateRestoring", "completeSignIn"]
+- !private ["PSo16UIStateRestoring", "emailField"]
+- !private ["PSo16UIStateRestoring", "firebaseAuth"]
+- !private ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "performSegue"]
+- !private ["PSo16UIStateRestoring", "print"]
+- !private ["PSo16UIStateRestoring", "pwdField"]
+- !private ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo11UITextField", "text"]
+- !private ["PSo11UITextInput", "text"]
+- !private ["PSo17UITextInputTraits", "text"]
+- !private ["PSo18UITraitEnvironment", "Auth"]
+- !private ["PSo18UITraitEnvironment", "DataService"]
+- !private ["PSo18UITraitEnvironment", "FBSDKAccessToken"]
+- !private ["PSo18UITraitEnvironment", "FBSDKLoginManager"]
+- !private ["PSo18UITraitEnvironment", "FacebookAuthProvider"]
+- !private ["PSo18UITraitEnvironment", "KEY_UID"]
+- !private ["PSo18UITraitEnvironment", "KeychainWrapper"]
+- !private ["PSo18UITraitEnvironment", "String"]
+- !private ["PSo18UITraitEnvironment", "completeSignIn"]
+- !private ["PSo18UITraitEnvironment", "emailField"]
+- !private ["PSo18UITraitEnvironment", "firebaseAuth"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "performSegue"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- !private ["PSo18UITraitEnvironment", "pwdField"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- !private ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "text"]
+- !private ["CSo16UIViewController", "Auth"]
+- ["CSo16UIViewController", "AuthCredential"]
+- ["CSo16UIViewController", "Bool"]
+- !private ["CSo16UIViewController", "DataService"]
+- ["CSo16UIViewController", "Dictionary"]
+- !private ["CSo16UIViewController", "FBSDKAccessToken"]
+- !private ["CSo16UIViewController", "FBSDKLoginManager"]
+- !private ["CSo16UIViewController", "FacebookAuthProvider"]
+- ["CSo16UIViewController", "FancyField"]
+- !private ["CSo16UIViewController", "KEY_UID"]
+- !private ["CSo16UIViewController", "KeychainWrapper"]
+- ["CSo16UIViewController", "String"]
+- ["CSo16UIViewController", "completeSignIn"]
+- ["CSo16UIViewController", "emailField"]
+- ["CSo16UIViewController", "facebookBtnTapped"]
+- ["CSo16UIViewController", "firebaseAuth"]
+- ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "performSegue"]
+- !private ["CSo16UIViewController", "print"]
+- ["CSo16UIViewController", "pwdField"]
+- ["CSo16UIViewController", "signInTapped"]
+- ["CSo16UIViewController", "viewDidAppear"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["CSo4User", "providerID"]
+- !private ["CSo4User", "uid"]
+- !private ["PSo8UserInfo", "providerID"]
+- !private ["PSo8UserInfo", "uid"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "Auth"]
+- !private ["Ps9_Hashable", "DataService"]
+- !private ["Ps9_Hashable", "FBSDKAccessToken"]
+- !private ["Ps9_Hashable", "FBSDKLoginManager"]
+- !private ["Ps9_Hashable", "FacebookAuthProvider"]
+- !private ["Ps9_Hashable", "KEY_UID"]
+- !private ["Ps9_Hashable", "KeychainWrapper"]
+- !private ["Ps9_Hashable", "String"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "auth"]
+- !private ["Ps9_Hashable", "completeSignIn"]
+- !private ["Ps9_Hashable", "createUser"]
+- !private ["Ps9_Hashable", "credential"]
+- !private ["Ps9_Hashable", "current"]
+- !private ["Ps9_Hashable", "emailField"]
+- !private ["Ps9_Hashable", "firebaseAuth"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "isCancelled"]
+- !private ["Ps9_Hashable", "logIn"]
+- !private ["Ps9_Hashable", "performSegue"]
+- !private ["Ps9_Hashable", "print"]
+- !private ["Ps9_Hashable", "providerID"]
+- !private ["Ps9_Hashable", "pwdField"]
+- !private ["Ps9_Hashable", "signIn"]
+- !private ["Ps9_Hashable", "text"]
+- !private ["Ps9_Hashable", "tokenString"]
+- !private ["Ps9_Hashable", "uid"]
+- !private ["Ps9_Hashable", "viewDidLoad"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "CSo4Auth"
+- !private "Sb"
+- !private "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "C16devslopes_social11DataService"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "CSo16FBSDKAccessToken"
+- !private "PSo12FBSDKCopying"
+- !private "CSo17FBSDKLoginManager"
+- !private "CSo28FBSDKLoginManagerLoginResult"
+- !private "CSo20FacebookAuthProvider"
+- !private "C16devslopes_social10FancyField"
+- "Ps8Hashable"
+- !private "C20SwiftKeychainWrapper15KeychainWrapper"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "C16devslopes_social8SignInVC"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "PSo30UIContentSizeCategoryAdjusting"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "PSo10UIKeyInput"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo16UIStateRestoring"
+- !private "CSo11UITextField"
+- !private "PSo11UITextInput"
+- !private "PSo17UITextInputTraits"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "CSo4User"
+- !private "PSo8UserInfo"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Modules/SwiftKeychainWrapper.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFURL.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Headers/SwiftKeychainWrapper-umbrella.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/Firebase/Core/Sources/Firebase.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Headers/SwiftKeychainWrapper.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask+Exceptions.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Headers/SwiftKeychainWrapper-Swift.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageSwiftNameSupport.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRCoreSwiftNameSupport.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseSwiftNameSupport.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthSwiftNameSupport.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Modules/module.modulemap"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Modules/module.modulemap"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap"
+interface-hash: "e4bba0da109273a7b339560b0cac4027"
