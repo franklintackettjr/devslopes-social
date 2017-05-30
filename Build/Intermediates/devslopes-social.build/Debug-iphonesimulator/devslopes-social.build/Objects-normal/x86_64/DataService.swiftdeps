@@ -1,6 +1,7 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
 - "DB_BASE"
+- "STORAGE_BASE"
 - "DataService"
 provides-nominal:
 - "C16devslopes_social11DataService"
@@ -13,31 +14,39 @@ depends-top-level:
 - "Database"
 - "DatabaseReference"
 - "Dictionary"
+- "STORAGE_BASE"
+- "Storage"
+- "StorageReference"
 - "String"
 - "StringLiteralType"
 depends-member:
 - ["Ps9AnyObject", "DB_BASE"]
 - ["Ps9AnyObject", "DataService"]
 - !private ["Ps9AnyObject", "REF_USERS"]
+- ["Ps9AnyObject", "STORAGE_BASE"]
 - !private ["Ps9AnyObject", "_REF_BASE"]
 - !private ["Ps9AnyObject", "_REF_POSTS"]
+- !private ["Ps9AnyObject", "_REF_POST_IMAGES"]
 - !private ["Ps9AnyObject", "_REF_USERS"]
 - ["Ps9AnyObject", "child"]
 - ["Ps9AnyObject", "database"]
 - ["Ps9AnyObject", "init"]
 - ["Ps9AnyObject", "reference"]
+- ["Ps9AnyObject", "storage"]
 - !private ["Ps9AnyObject", "updateChildValues"]
 - ["Ps9AnyObject", ""]
 - ["Ps7CVarArg", "child"]
 - ["Ps7CVarArg", "database"]
 - ["Ps7CVarArg", "init"]
 - ["Ps7CVarArg", "reference"]
+- ["Ps7CVarArg", "storage"]
 - !private ["Ps7CVarArg", "updateChildValues"]
 - ["Ps10Comparable", "init"]
 - ["Ps28CustomDebugStringConvertible", "child"]
 - ["Ps28CustomDebugStringConvertible", "database"]
 - ["Ps28CustomDebugStringConvertible", "init"]
 - ["Ps28CustomDebugStringConvertible", "reference"]
+- ["Ps28CustomDebugStringConvertible", "storage"]
 - !private ["Ps28CustomDebugStringConvertible", "updateChildValues"]
 - ["Ps29CustomPlaygroundQuickLookable", "init"]
 - ["Ps17CustomReflectable", "init"]
@@ -45,6 +54,7 @@ depends-member:
 - ["Ps23CustomStringConvertible", "database"]
 - ["Ps23CustomStringConvertible", "init"]
 - ["Ps23CustomStringConvertible", "reference"]
+- ["Ps23CustomStringConvertible", "storage"]
 - !private ["Ps23CustomStringConvertible", "updateChildValues"]
 - ["C16devslopes_social11DataService", "DB_BASE"]
 - ["C16devslopes_social11DataService", "DataService"]
@@ -52,10 +62,14 @@ depends-member:
 - ["C16devslopes_social11DataService", "Dictionary"]
 - ["C16devslopes_social11DataService", "REF_BASE"]
 - ["C16devslopes_social11DataService", "REF_POSTS"]
+- ["C16devslopes_social11DataService", "REF_POST_IMAGES"]
 - ["C16devslopes_social11DataService", "REF_USERS"]
+- ["C16devslopes_social11DataService", "STORAGE_BASE"]
+- ["C16devslopes_social11DataService", "StorageReference"]
 - ["C16devslopes_social11DataService", "String"]
 - !private ["C16devslopes_social11DataService", "_REF_BASE"]
 - !private ["C16devslopes_social11DataService", "_REF_POSTS"]
+- !private ["C16devslopes_social11DataService", "_REF_POST_IMAGES"]
 - !private ["C16devslopes_social11DataService", "_REF_USERS"]
 - ["C16devslopes_social11DataService", "createFirebaseDBUser"]
 - ["C16devslopes_social11DataService", "deinit"]
@@ -71,6 +85,7 @@ depends-member:
 - ["Ps9Equatable", "database"]
 - ["Ps9Equatable", "init"]
 - ["Ps9Equatable", "reference"]
+- ["Ps9Equatable", "storage"]
 - !private ["Ps9Equatable", "updateChildValues"]
 - ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
 - ["Ps26ExpressibleByStringLiteral", "init"]
@@ -79,6 +94,7 @@ depends-member:
 - ["Ps8Hashable", "database"]
 - ["Ps8Hashable", "init"]
 - ["Ps8Hashable", "reference"]
+- ["Ps8Hashable", "storage"]
 - !private ["Ps8Hashable", "updateChildValues"]
 - ["Ps25LosslessStringConvertible", "init"]
 - ["Ps10MirrorPath", "init"]
@@ -88,14 +104,19 @@ depends-member:
 - ["CSo8NSObject", "child"]
 - ["CSo8NSObject", "database"]
 - ["CSo8NSObject", "reference"]
+- ["CSo8NSObject", "storage"]
 - !private ["CSo8NSObject", "updateChildValues"]
 - ["PSo16NSObjectProtocol", "child"]
 - ["PSo16NSObjectProtocol", "database"]
 - ["PSo16NSObjectProtocol", "init"]
 - ["PSo16NSObjectProtocol", "reference"]
+- ["PSo16NSObjectProtocol", "storage"]
 - !private ["PSo16NSObjectProtocol", "updateChildValues"]
 - ["PSo14NSSecureCoding", "init"]
 - ["CSo8NSString", "init"]
+- ["CSo7Storage", "reference"]
+- ["CSo7Storage", "storage"]
+- ["CSo16StorageReference", "child"]
 - ["SS", "init"]
 - ["Ps16TextOutputStream", "init"]
 - ["Ps20TextOutputStreamable", "init"]
@@ -109,6 +130,7 @@ depends-member:
 - ["Ps9_Hashable", "database"]
 - ["Ps9_Hashable", "init"]
 - ["Ps9_Hashable", "reference"]
+- ["Ps9_Hashable", "storage"]
 - !private ["Ps9_Hashable", "updateChildValues"]
 - ["Ps21_ObjectiveCBridgeable", "init"]
 depends-nominal:
@@ -137,6 +159,8 @@ depends-nominal:
 - "PSo16NSObjectProtocol"
 - "PSo14NSSecureCoding"
 - "CSo8NSString"
+- "CSo7Storage"
+- "CSo16StorageReference"
 - "SS"
 - "Ps16TextOutputStream"
 - "Ps20TextOutputStreamable"
@@ -289,4 +313,4 @@ depends-external:
 - "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Modules/module.modulemap"
 - "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/module.modulemap"
 - "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap"
-interface-hash: "d21487bf3d912648a56f895d343392bd"
+interface-hash: "bd22dbce578be01bd7f709ff3039a55a"
