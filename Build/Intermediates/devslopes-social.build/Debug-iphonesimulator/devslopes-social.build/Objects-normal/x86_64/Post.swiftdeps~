@@ -7,12 +7,14 @@ provides-member:
 - ["C16devslopes_social4Post", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "+"
+- !private "-"
 - "AnyObject"
 - "AssignmentPrecedence"
+- "Bool"
 - "CastingPrecedence"
 - "Dictionary"
 - "Int"
-- "NSString"
 - "Post"
 - "String"
 - !private "StringLiteralType"
@@ -23,24 +25,32 @@ depends-member:
 - !private ["Ps9AnyObject", "_postKey"]
 - !private ["Ps9AnyObject", "init"]
 - ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["Ps7CVarArg", "init"]
 - !private ["Ps7CVarArg", "subscript"]
 - !private ["Ps10Collection", "subscript"]
 - !private ["Ps10Comparable", "init"]
 - !private ["Ps28CustomDebugStringConvertible", "init"]
 - !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
 - !private ["Ps17CustomReflectable", "init"]
 - !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
 - !private ["Ps23CustomStringConvertible", "init"]
 - !private ["Ps23CustomStringConvertible", "subscript"]
 - !private ["Vs10Dictionary", "subscript"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
 - !private ["Ps9Equatable", "init"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
 - !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
 - !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
 - !private ["Ps26ExpressibleByStringLiteral", "init"]
 - !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
 - !private ["Ps8Hashable", "init"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
 - !private ["Ps25LosslessStringConvertible", "init"]
 - !private ["Ps10MirrorPath", "init"]
 - !private ["PSo8NSCoding", "init"]
@@ -50,14 +60,15 @@ depends-member:
 - !private ["PSo14NSSecureCoding", "init"]
 - !private ["CSo8NSString", "init"]
 - ["C16devslopes_social4Post", "AnyObject"]
+- ["C16devslopes_social4Post", "Bool"]
 - ["C16devslopes_social4Post", "Dictionary"]
 - ["C16devslopes_social4Post", "Int"]
-- ["C16devslopes_social4Post", "NSString"]
 - ["C16devslopes_social4Post", "String"]
 - !private ["C16devslopes_social4Post", "_caption"]
 - !private ["C16devslopes_social4Post", "_imageUrl"]
 - !private ["C16devslopes_social4Post", "_likes"]
 - !private ["C16devslopes_social4Post", "_postKey"]
+- ["C16devslopes_social4Post", "adjustLikes"]
 - ["C16devslopes_social4Post", "caption"]
 - ["C16devslopes_social4Post", "deinit"]
 - ["C16devslopes_social4Post", "imageUrl"]
@@ -68,19 +79,23 @@ depends-member:
 - !private ["SS", "init"]
 - !private ["Ps16TextOutputStream", "init"]
 - !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
 - !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
 - !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
 - !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
 - !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
 - !private ["Ps33_ExpressibleByStringInterpolation", "init"]
 - !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
 - !private ["Ps9_Hashable", "init"]
 - !private ["Ps10_Indexable", "subscript"]
 - !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
 - !private ["Ps21_ObjectiveCBridgeable", "init"]
 - !private ["Ps21_ObjectiveCBridgeable", "subscript"]
 depends-nominal:
 - "Ps9AnyObject"
+- !private "Sb"
 - !private "Ps7CVarArg"
 - !private "Ps10Collection"
 - !private "Ps10Comparable"
@@ -90,6 +105,7 @@ depends-nominal:
 - !private "Ps23CustomStringConvertible"
 - !private "Vs10Dictionary"
 - !private "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
 - !private "Ps30ExpressibleByDictionaryLiteral"
 - !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
 - !private "Ps26ExpressibleByStringLiteral"
@@ -108,6 +124,7 @@ depends-nominal:
 - !private "SS"
 - !private "Ps16TextOutputStream"
 - !private "Ps20TextOutputStreamable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
 - !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
 - !private "Ps34_ExpressibleByBuiltinStringLiteral"
 - !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
@@ -259,4 +276,4 @@ depends-external:
 - "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Modules/module.modulemap"
 - "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/module.modulemap"
 - "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap"
-interface-hash: "78749d10e8bfb4639c5fbbcffdcb8400"
+interface-hash: "f8969237813b67f7db860b288199aa2f"

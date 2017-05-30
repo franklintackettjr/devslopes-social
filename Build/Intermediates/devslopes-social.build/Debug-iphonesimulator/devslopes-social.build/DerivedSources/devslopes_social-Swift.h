@@ -203,11 +203,13 @@ SWIFT_CLASS("_TtC16devslopes_social9FancyView")
 SWIFT_CLASS("_TtC16devslopes_social6FeedVC")
 @interface FeedVC : UIViewController <UIScrollViewDelegate, UITableViewDataSource, UIImagePickerControllerDelegate, UINavigationControllerDelegate, UITableViewDelegate>
 @property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified tableView;
+@property (nonatomic, weak) IBOutlet FancyField * _Null_unspecified captionField;
 @property (nonatomic, weak) IBOutlet CircleView * _Null_unspecified addImage;
 @property (nonatomic, strong) UIImagePickerController * _Null_unspecified imagePicker;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) NSCache<NSString *, UIImage *> * _Nonnull imageCache;)
 + (NSCache<NSString *, UIImage *> * _Nonnull)imageCache SWIFT_WARN_UNUSED_RESULT;
 + (void)setImageCache:(NSCache<NSString *, UIImage *> * _Nonnull)value;
+@property (nonatomic) BOOL imageSelected;
 - (void)viewDidLoad;
 - (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
@@ -215,12 +217,16 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) NSCache<NSString *, UI
 - (void)imagePickerController:(UIImagePickerController * _Nonnull)picker didFinishPickingMediaWithInfo:(NSDictionary<NSString *, id> * _Nonnull)info;
 - (IBAction)signOutTapped:(id _Nonnull)sender;
 - (IBAction)addImageTapped:(id _Nonnull)sender;
+- (IBAction)postBtnTapped:(id _Nonnull)sender;
+- (void)postToFirebaseWithImageUrl:(NSString * _Nonnull)imageUrl;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class UILabel;
 @class UITextView;
+@class FIRDatabaseReference;
+@class UITapGestureRecognizer;
 
 SWIFT_CLASS("_TtC16devslopes_social8PostCell")
 @interface PostCell : UITableViewCell
@@ -229,7 +235,10 @@ SWIFT_CLASS("_TtC16devslopes_social8PostCell")
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified postImg;
 @property (nonatomic, weak) IBOutlet UITextView * _Null_unspecified caption;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified likesLbl;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified likeImg;
+@property (nonatomic, strong) FIRDatabaseReference * _Null_unspecified likesRef;
 - (void)awakeFromNib;
+- (void)likeTappedWithSender:(UITapGestureRecognizer * _Nonnull)sender;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

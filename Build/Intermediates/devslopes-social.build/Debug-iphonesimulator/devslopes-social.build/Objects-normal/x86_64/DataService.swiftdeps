@@ -14,6 +14,8 @@ depends-top-level:
 - "Database"
 - "DatabaseReference"
 - "Dictionary"
+- !private "KEY_UID"
+- !private "KeychainWrapper"
 - "STORAGE_BASE"
 - "Storage"
 - "StorageReference"
@@ -22,6 +24,8 @@ depends-top-level:
 depends-member:
 - ["Ps9AnyObject", "DB_BASE"]
 - ["Ps9AnyObject", "DataService"]
+- !private ["Ps9AnyObject", "KEY_UID"]
+- !private ["Ps9AnyObject", "KeychainWrapper"]
 - !private ["Ps9AnyObject", "REF_USERS"]
 - ["Ps9AnyObject", "STORAGE_BASE"]
 - !private ["Ps9AnyObject", "_REF_BASE"]
@@ -32,7 +36,9 @@ depends-member:
 - ["Ps9AnyObject", "database"]
 - ["Ps9AnyObject", "init"]
 - ["Ps9AnyObject", "reference"]
+- !private ["Ps9AnyObject", "standard"]
 - ["Ps9AnyObject", "storage"]
+- !private ["Ps9AnyObject", "string"]
 - !private ["Ps9AnyObject", "updateChildValues"]
 - ["Ps9AnyObject", ""]
 - ["Ps7CVarArg", "child"]
@@ -60,7 +66,10 @@ depends-member:
 - ["C16devslopes_social11DataService", "DataService"]
 - ["C16devslopes_social11DataService", "DatabaseReference"]
 - ["C16devslopes_social11DataService", "Dictionary"]
+- !private ["C16devslopes_social11DataService", "KEY_UID"]
+- !private ["C16devslopes_social11DataService", "KeychainWrapper"]
 - ["C16devslopes_social11DataService", "REF_BASE"]
+- ["C16devslopes_social11DataService", "REF_CURRENT_USER"]
 - ["C16devslopes_social11DataService", "REF_POSTS"]
 - ["C16devslopes_social11DataService", "REF_POST_IMAGES"]
 - ["C16devslopes_social11DataService", "REF_USERS"]
@@ -96,6 +105,8 @@ depends-member:
 - ["Ps8Hashable", "reference"]
 - ["Ps8Hashable", "storage"]
 - !private ["Ps8Hashable", "updateChildValues"]
+- !private ["C20SwiftKeychainWrapper15KeychainWrapper", "standard"]
+- !private ["C20SwiftKeychainWrapper15KeychainWrapper", "string"]
 - ["Ps25LosslessStringConvertible", "init"]
 - ["Ps10MirrorPath", "init"]
 - ["PSo8NSCoding", "init"]
@@ -150,6 +161,7 @@ depends-nominal:
 - "Ps26ExpressibleByStringLiteral"
 - "Ps33ExpressibleByUnicodeScalarLiteral"
 - "Ps8Hashable"
+- !private "C20SwiftKeychainWrapper15KeychainWrapper"
 - "Ps25LosslessStringConvertible"
 - "Ps10MirrorPath"
 - "PSo8NSCoding"
@@ -313,4 +325,4 @@ depends-external:
 - "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Modules/module.modulemap"
 - "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/module.modulemap"
 - "/Users/franklin/Desktop/Playground/AppDev/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap"
-interface-hash: "bd22dbce578be01bd7f709ff3039a55a"
+interface-hash: "bda2173dfe83a9690cf3e266083e03b5"

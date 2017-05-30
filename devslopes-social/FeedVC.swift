@@ -13,12 +13,15 @@ import SwiftKeychainWrapper
 class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
     @IBOutlet weak var tableView: UITableView!
-    
+    @IBOutlet weak var captionField: FancyField!
     @IBOutlet weak var addImage: CircleView!
+    
+    
     
     var posts = [Post]()
     var imagePicker: UIImagePickerController!
     static var imageCache: NSCache<NSString, UIImage> = NSCache()
+    var imageSelected = false
     
     override func viewDidLoad() {
         super .viewDidLoad()
@@ -77,6 +80,7 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIIm
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
         if let image = info[UIImagePickerControllerEditedImage] as? UIImage {
             addImage.image = image
+            imageSelected = true
         } else {
             print("FRANKLIN: A valid image was not selected")
         }
@@ -98,7 +102,57 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIIm
         
     }
     
+    @IBAction func postBtnTapped(_ sender: Any) {
+        guard let caption = captionField.text, caption != ""  else {
+            print("FRANKLIN: Caption must be entered")
+            return
+        }
+        guard let img = addImage.image, imageSelected == true else {
+            print("FRANKLIN: Image must be selected")
+            return
+        }
+        
+        if let imgData = UIImageJPEGRepresentation(img, 0.2) {
+            
+            let imgUid = NSUUID().uuidString
+            let metadata = StorageMetadata()
+            metadata.contentType = "image/jpeg"
+            
+            DataService.ds.REF_POST_IMAGES.child(imgUid).putData(imgData, metadata: metadata) { (metadata, error) in
+                if error != nil {
+                    print("FRANKLIN: Unable to upload image to firebase storage")
+                } else {
+                    print("FRANKLIN: Successfully uploaded image to firebase storage")
+                    let downloadURL = metadata?.downloadURL()?.absoluteString
+                    if let url = downloadURL {
+                        self.postToFirebase(imageUrl: url)
+                    }
+                }
+            }
+        }
+    }
     
+    func postToFirebase(imageUrl: String) {
+        let post: Dictionary<String, AnyObject> = [
+        "caption": captionField.text! as AnyObject,
+        "imageUrl": imageUrl as AnyObject,
+        "likes": 0 as AnyObject
+        ]
+        
+        let firebasePost = DataService.ds.REF_POSTS.childByAutoId()
+        firebasePost.setValue(post)
+        
+        captionField.text = ""
+        imageSelected = false
+        addImage.image = UIImage(named: "add-image")
+        
+        tableView.reloadData()
+    }
     
-
 }
+
+
+
+
+
+
